@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chatbox</title>
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="container">
+        <a class="logo" href="#"><span>C</span>hatbox</a>
+
+        <img id="mobile-cta" class="mobile-menu" src="menu.svg" alt="svg" />
+
+        <nav>
+          <img id="mobile-exit" class="mobile-menu-exit" src="exit.svg" alt="close" />
+          <ul class="primary-nav">
+            <li class="current"><a onclick="exi()"  href="#">Home</a></li>
+            <li > <a onclick="exi()" href="#Feature">Features</a></li>
+            <li><a onclick="exi()"  href="#Github project files link">Source</a></li>
+          </ul>
+
+          <ul class="secondary-nav">
+            <li ><a onclick="exi()" class="item" href="./privacy.html">Privacy</a></li>
+            <li  class="privacy-cta"><a onclick="exi()"class="item" href="#Contact">Signup</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <section class="hero">
+      <div class="container">
+        <div class="left-col">
+          <p class="subhead">Privacy matters</p>
+          <h1>Chatbox</h1>
+
+          <div class="hero-cta">
+            <a href="https://chatboxcommunity.netlify.app/" class="primary-cta">Login</a>
+       
+          </div>
+        </div>
+
+        <img class="hero-img" src="logo.png" alt="box" />
+      </div>
+    </section>
+
+    <section id="Feature" class="features-section">
+      <div class="container">
+        <ul class="features-list">
+          <li>Chatbox is a secure open-source messaging platform</li>
+          <li>Real time chat</li>
+          <li>Media files support</li>
+          <li>Anonymous chat app</li>
+          <li>Chat engine.io api</li>
+          
+        </ul>
+      </div>
+    </section>
+    <section id="Contact" class="contact-section">
+      <div class="container">
+        <div class="contact-left">
+          <h2>Signup</h2>
+
+          <form class="contact">
+            <div class="alert">Your request has been sent</div>
+            <label for="name">Name</label>
+            <input class="name" type="text" id="name" name="name"  required/>
+          
+            <label for="email">Email</label>
+            <input class="email" type="email" id="email" name="email" />
+            <button class="btn" type="submit">Sign Up</button>
+      
+          </form>
+        </div>
+      </div>
+    </section>
+
+<section class="footer">
+  <a class="footer-a" href="">© Website developed by code 2b smart</a>
+  <p class="para">© 2021 copyright all right reserved</p>
+</section>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.5/firebase.js"></script>
+
+    <script src="app.js"></script>
+  </body>
+</html>
